@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "Dancing Script";
+  src: local("Dancing Script"), 
+  url('./font/DancingScript-VariableFont_wght.ttf'),
+  format('truetype');
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: local("Roboto Slab"),
+  url('./font/RobotoSlab-VariableFont-wght.ttf'),
+  format('truetype');
+}
 /* animation start */
 :root {
   --bg-color: hsl(355, 43%, 95%);
