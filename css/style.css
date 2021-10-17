@@ -84,7 +84,7 @@ h1::after {
 
 }
 /*animation end*/
-
+/*flip animation start*/
 .flip{
   font-family: 'Roboto Slab', sans-serif;
   display: flex;
@@ -127,6 +127,8 @@ figure{
   border-radius: 5px;
   box-shadow: 10px 10px 30px rgba(0,0,0,.2);
   backface-visibility: hidden;
+  text-align: center;
+  font-size: 18px;
 }
 
 .back__header{
@@ -242,10 +244,10 @@ figure button i{
     left: 20px;
   } 
 }
-
+/*flip animation end*/
 /*ask start*/
 .ask {
-	height: 100vh;
+	height: 100px;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
